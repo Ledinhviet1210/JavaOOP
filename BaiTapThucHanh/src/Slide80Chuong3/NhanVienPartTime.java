@@ -1,11 +1,10 @@
 package Slide80Chuong3;
 
-import util.Configs;
 
 public class NhanVienPartTime extends NhanVien {
     private int giolamviec ;
 
-    public nhanVienPartTime(String name , int giolamviec){
+    public NhanVienPartTime(String name , int giolamviec){
         this.name = name ;
         this.giolamviec=giolamviec;
     }

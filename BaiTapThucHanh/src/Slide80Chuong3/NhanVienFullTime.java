@@ -2,16 +2,15 @@ package Slide80Chuong3;
 
 import java.util.Scanner;
 
-import util.Configs;
 
 public class NhanVienFullTime extends NhanVien {
    private int ngaylamthem ;
    private int loaichucvu ;
 
-   public  nhanVienFullTime(String name){
+   public  NhanVienFullTime(String name){
     this.name = name ;
    }
-   public  nhanVienFullTime(String name ,int ngaylamthem){
+   public  NhanVienFullTime(String name ,int ngaylamthem){
     this.name = name;
     this.ngaylamthem = ngaylamthem;
    }

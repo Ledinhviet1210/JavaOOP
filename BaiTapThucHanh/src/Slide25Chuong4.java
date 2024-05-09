@@ -7,7 +7,7 @@ public class Slide25Chuong4 {
         Scanner sc  = new Scanner(System.in);
         int number ;
 
-        System.out.print("Nhap so pan tu cua arrList : ");
+        System.out.print("Nhap so phan tu cua arrList : ");
         int n = sc.nextInt();
 
         for(int i =0 ;i<n ;i++){

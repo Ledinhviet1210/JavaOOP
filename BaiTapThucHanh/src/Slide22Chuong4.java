@@ -8,6 +8,7 @@ public class Slide22Chuong4 {
         colors.add("Blue");
         colors.add("Green");
         colors.add("Orange");
+        colors.remove("Green");
         colors.add("Pink");
         colors.add("Yellow");
 

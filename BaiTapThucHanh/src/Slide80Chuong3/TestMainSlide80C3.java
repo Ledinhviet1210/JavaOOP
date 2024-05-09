@@ -1,13 +1,13 @@
 package Slide80Chuong3;
 
-import java.io.ObjectInputFilter.Config;
 
 public class TestMainSlide80C3 {
     public static void main(String[] args) {
-    NhanVienFullTime Sep = new NhanVienFullTime();
-    NhanVienFullTime nhanvien1 = new NhanVienFullTime();
-    NhanVienFullTime nhanvien2 = new NhanVienFullTime();
-    NhanVienPartTime nhanvien3 = new NhanVienPartTime();
+    NhanVienFullTime Sep = new NhanVienFullTime("Tran Van Sep");
+    Sep.setLoaichucvu(1);
+    NhanVienFullTime nhanvien1 = new NhanVienFullTime("Nguyen Van Linh");
+    NhanVienFullTime nhanvien2 = new NhanVienFullTime("Le Thi Linh ",3);
+    NhanVienPartTime nhanvien3 = new NhanVienPartTime("Thoi Vu",240);
 
     Sep.setLoaichucvu(Configs.nvSep);
     nhanvien1.setLoaichucvu(Configs.nvLinh);

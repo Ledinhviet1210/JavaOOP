@@ -1,15 +1,13 @@
-public package Slide80Chuong3;
+ package Slide80Chuong3;
 
-import java.util.Scanner;
 
-class NhanVien {
+public class NhanVien {
 
     protected String name ;
     protected long luong ;
 
     public NhanVien(){
-        ten = " ";
-        luong = 0;
+       
     }
 
     public void NhanVien(String name){
